@@ -17,7 +17,7 @@
     box-sizing: border-box;
 }
 
-body, html {
+body {
     background-color: #0e4c66;
     height: 100vh;
     width: 100vw;
@@ -36,11 +36,14 @@ section {
     transform: translate(-50%, -50%);
 
     background-color: white;
-    width: 350px;
+    width: 320px;
     height: 550px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.438);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section div#imagem {
