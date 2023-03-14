@@ -19,7 +19,7 @@
 
 body, html {
     background-color: #0e4c66;
-    
+    height: 100vh;
     width: 100vw;
 }
 
@@ -58,4 +58,8 @@ section div#imagem {
 section div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario h1 {
+    margin-bottom: 10px;
 }
