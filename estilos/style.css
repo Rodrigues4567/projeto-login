@@ -40,7 +40,7 @@ section {
     height: 550px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.438);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.37);
 
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
@@ -62,4 +62,34 @@ section div#formulario {
 
 div#formulario h1 {
     margin-bottom: 10px;
+}
+
+form input[type=submit] {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    width: 100%;
+    height: 45px;
+    background-color: #012030;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+form input[type=submit]:hover {
+    background-color: #0f526e;
+}
+
+form a#esqueci {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    font-size: 1em;
+}
+
+form a#esqueci:hover {
+    text-decoration: underline;
 }
